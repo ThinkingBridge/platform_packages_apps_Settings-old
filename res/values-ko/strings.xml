@@ -1918,5 +1918,8 @@
     <string name="display_rotation_90_title">90도</string>
     <string name="display_rotation_180_title">180도</string>
     <string name="display_rotation_270_title">270도</string>
+    
+    <!-- Hostname setting -->
+    <string name="device_hostname">디바이스 호스트네임</string>
 
 </resources>
