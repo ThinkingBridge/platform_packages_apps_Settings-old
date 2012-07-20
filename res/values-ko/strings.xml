@@ -1903,5 +1903,9 @@
     <string name="cpu_schedulers_title">스케쥴러</string>
     <string name="cpu_schedulers_summary">%s</string>
     <string name="feature_not_supported">현재커널은 지원하지 않습니다</string>
+    
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB over network</string>
+    <string name="adb_over_network_summary">네트워크 인터페이스를 통해 TCP / IP 디버깅을 사용 (Wi-Fi, USB 네트워크). 이 설정은 재부팅에 초기화됩니다.</string>
 
 </resources>
