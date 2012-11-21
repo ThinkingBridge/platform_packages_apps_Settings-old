@@ -1547,6 +1547,10 @@
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/wireless_settings" />
         </activity>
+        
+        <activity android:name=".notificationlight.NotificationLightSettings" />
+        
+        <activity android:name=".notificationlight.BatteryLightSettings" />
 
         <activity android:name="Settings$DreamSettingsActivity"
                 android:label="@string/screensaver_settings_title"
