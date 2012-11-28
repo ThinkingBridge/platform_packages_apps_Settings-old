@@ -1888,8 +1888,6 @@
     <string name="kill_app_longpress_back">뒤로 가기 버튼으로 앱 강제종료</string>
     <string name="kill_app_longpress_back_summary">뒤로가기 버튼을 길게 눌러서 현재 앱을 강제로 종료시킵니다.</string>
     
-    <string name="lock_clock_title">시계위젯</string>
-    
     <string name="headset_category_title">헤드셋</string>
     <string name="headset_connect_player_title">헤드셋이 연결되면 음악앱 실행</string>
 
