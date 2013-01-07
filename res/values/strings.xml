@@ -3665,6 +3665,10 @@
          [CHAR LIMIT=40] -->
     <string name="sound_category_system_title">System</string>
 
+    <!-- Category title for headset specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="headset_category_title">Headset</string>
+
     <!-- Wifi Setup For Setup Wizard with XL screen -->
     <!-- Title shown in Wifi Setup Wizard with XL screen -->
     <string name="wifi_setup_title">Wi-Fi setup</string>
@@ -4509,9 +4513,11 @@
     <string name="icon_picker_system_icons_title">System icons</string>
     <string name="icon_picker_gallery_title">Gallery</string>
     <string name="icon_picker_pack_title">Icon pack</string>
-    
-    <!--- Chronus -->
+
+    <!--- Lock clock -->
     <string name="lock_clock_title">Clock widget</string>
     <string name="lock_clock_summary">View or change how the \'Chronus\' Home and Lock screen widgets will display</string>
+    
+    <string name="headset_connect_player_title">Launch music app on connect</string>
 
 </resources>

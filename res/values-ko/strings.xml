@@ -1938,5 +1938,8 @@
     <string name="icon_picker_pack_title">아이콘 팩</string>
     
     <string name="lock_clock_title">시계위젯</string>
+    
+    <string name="headset_category_title">헤드셋</string>
+    <string name="headset_connect_player_title">헤드셋이 연결되면 음악앱 실행</string>
 
 </resources>
