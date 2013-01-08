@@ -1834,4 +1834,52 @@
     <string name="user_picture_title" msgid="7297782792000291692">"사진 ID"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"셀 브로드캐스트"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"표시할 긴급 알림 유형을 선택합니다."</string>
+
+    <!--ThinkingBridge-->
+
+    <string name="userinterface_title">유저 인터페이스</string>
+    <string name="customized_title">커스터마이징</string>
+    <string name="themes_title">테마</string>
+
+    <string name="mod_version">롬 버전</string>
+    <string name="mod_version_default">알수없음</string>
+
+    <!-- Quiet hours #CM -->
+    <string name="quiet_hours_title">취침 모드</string>
+    <string name="quiet_hours_summary">장치를 무음모드로 설정할 시간을 설정합니다.</string>
+    <string name="quiet_hours_enabled_title">취침 모드 활성화</string>
+    <string name="quiet_hours_start">취침 모드 시작</string>
+    <string name="quiet_hours_start_summary">취침 모드를 시작할 시간을 설정합니다.</string>
+    <string name="quiet_hours_end">취침 모드 종료</string>
+    <string name="quiet_hours_end_summary">취침 모드를 종료할 시간을 설정합니다.</string>
+    <string name="quiet_hours_notifications_title">알림 소리 끄기</string>
+    <string name="quiet_hours_ringer_title">벨소리 끄기</string>
+    <string name="quiet_hours_still_title">진동 비활성화</string>
+    <string name="quiet_hours_dim_title">LED 비활성화</string>
+    <string name="quiet_hours_active_from">활성화 시작</string>
+    <string name="quiet_hours_active_to">끝</string>
+
+    <string name="vibration_title">휴대전화 진동</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">시작</string>
+    <string name="end_time_title">끝</string>
+
+    <!--  About device screen, Hardware info -->
+    <string name="hardware_info">하드웨어정보</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">후면 카메라</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">정면 카메라</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">화면 해상도</string>
+    <!--  About device Screen, hardware info, GPU info -->
+    <string name="gpu_info">GPU</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">메모리</string>
+
+    <string name="safe_headset_volume_title">안전한 헤드셋 볼륨</string>
+
 </resources>

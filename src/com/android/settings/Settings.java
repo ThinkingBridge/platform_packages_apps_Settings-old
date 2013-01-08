@@ -121,8 +121,8 @@ public class Settings extends PreferenceActivity
             R.id.date_time_settings,
             R.id.about_settings,
             R.id.accessibility_settings,
-            R.id.quick_links,
-            R.id.rom_control,
+            R.id.userinterface,
+            R.id.customized,
             R.id.themes,
             R.id.advanced_settings
     };
@@ -418,7 +418,7 @@ public class Settings extends PreferenceActivity
     private void updateHeaderList(List<Header> target) {
         final boolean showDev = mDevelopmentPreferences.getBoolean(
                 DevelopmentSettings.PREF_SHOW,
-                android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug"));
+                android.os.Build.TYPE.equals("eng"));
         int i = 0;
 
         mHeaderIndexMap.clear();
@@ -844,5 +844,4 @@ public class Settings extends PreferenceActivity
     public static class TextToSpeechSettingsActivity extends Settings { /* empty */ }
     public static class AndroidBeamSettingsActivity extends Settings { /* empty */ }
     public static class WifiDisplaySettingsActivity extends Settings { /* empty */ }
-    public static class AnonymousStatsActivity extends Settings { /* empty */ }
 }
