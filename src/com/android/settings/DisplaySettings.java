@@ -169,6 +169,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             }
         }
         preference.setSummary(summary);
+        if (preference != null && summary != null)
+        	preference.setSummary(summary);
     }
 
     private void disableUnusableTimeouts(ListPreference screenTimeoutPreference) {
