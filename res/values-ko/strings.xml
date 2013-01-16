@@ -1876,6 +1876,8 @@
     <!--  About device Screen, hardware info, GPU info -->
     <string name="gpu_info">GPU</string>
     <!-- About device screen, Cpu info. -->
+    <!-- About device screen, Chipset info -->
+    <string name="chipset_info">칩셋</string>
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">메모리</string>
