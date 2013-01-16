@@ -1838,7 +1838,7 @@
     <!--ThinkingBridge-->
 
     <string name="userinterface_title">유저 인터페이스</string>
-    <string name="customized_title">커스터마이징</string>
+    <string name="customized_title">커스터마이징 설정</string>
     <string name="themes_title">테마</string>
 
     <string name="mod_version">롬 버전</string>

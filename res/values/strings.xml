@@ -4448,12 +4448,9 @@
     <string name="start_time_title">Start</string>
     <string name="end_time_title">End</string>
 
-    <string name="vibration_title">Phone vibration</string>
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
 
-    <!-- AOKP specific sound settings
-    <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
 
     <!-- Kill app long-press back -->
