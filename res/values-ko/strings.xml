@@ -1936,5 +1936,7 @@
     <string name="icon_picker_system_icons_title">시스템 아이콘</string>
     <string name="icon_picker_gallery_title">갤러리</string>
     <string name="icon_picker_pack_title">아이콘 팩</string>
+    
+    <string name="lock_clock_title">시계위젯</string>
 
 </resources>

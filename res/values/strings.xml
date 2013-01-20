@@ -4509,5 +4509,9 @@
     <string name="icon_picker_system_icons_title">System icons</string>
     <string name="icon_picker_gallery_title">Gallery</string>
     <string name="icon_picker_pack_title">Icon pack</string>
+    
+    <!--- Chronus -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">View or change how the \'Chronus\' Home and Lock screen widgets will display</string>
 
 </resources>
