@@ -1840,6 +1840,7 @@
     <string name="userinterface_title">유저 인터페이스</string>
     <string name="customized_title">커스터마이징 설정</string>
     <string name="themes_title">테마</string>
+    <string name="lock_screen_title">잠금화면</string>
 
     <string name="mod_version">롬 버전</string>
     <string name="mod_version_default">알수없음</string>
@@ -1887,5 +1888,53 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">뒤로 가기 버튼으로 앱 강제종료</string>
     <string name="kill_app_longpress_back_summary">뒤로가기 버튼을 길게 눌러서 현재 앱을 강제로 종료시킵니다.</string>
+    
+    <!-- Lock Screen Shortcuts -->
+    <string name="lockscreen_target_info">슬라이더를 드래그해서 바로가기를 설정합니다</string>
+    <string name="lockscreen_target_title">슬라이더 바로가기</string>
+    <string name="lockscreen_target_summary">사용자 지정 잠금 화면 바로가기를 설정합니다.</string>
+    <string name="lockscreen_target_reset">잠금 화면 바로가기 설정 초기화됨</string>
+    <string name="lockscreen_target_save">잠금 화면 바로가기 저장됨</string>
+    <string name="lockscreen_target_reset_title">초기화</string>
+    <string name="lockscreen_target_reset_message">모든 수정사항을 초기화하시겠습니까?</string>
+    <string name="lockscreen_target_empty">비었음</string>
+    <string name="lockscreen_target_edit_title">바로가기 및 아이콘 바꾸기</string>
+    <string name="lockscreen_target_edit_msg">지정된 어플리케이션, 액티비티, 혹은 아이콘을 변경합니다.</string>
+    <string name="ok">OK</string>
+    <string name="profile_applist_title">애플리케이션</string>
+
+	<!-- Lock screen shortcuts -->
+    <string name="picker_activities">액티비티</string>
+    <string name="select_custom_app_title">Select custom application</string>
+    <string name="select_custom_activity_title">커스텀 액티비티 선택</string>
+    <string name="icon_picker_choose_icon_title">아이콘 선택</string>
+    <string name="icon_picker_alarm">알람</string>
+    <string name="icon_picker_browser">인터넷</string>
+    <string name="icon_picker_calendar">캘린더</string>
+    <string name="icon_picker_camera">카메라</string>
+    <string name="icon_picker_chrome">Chrome</string>
+    <string name="icon_picker_email">이메일</string>
+    <string name="icon_picker_email2">이메일 (Holo)</string>
+    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_gallery">갤러리</string>
+    <string name="icon_picker_google_small">Google (small)</string>
+    <string name="icon_picker_googleplus">Google+</string>
+    <string name="icon_picker_googletalk">Google 토크</string>
+    <string name="icon_picker_maps">지도</string>
+    <string name="icon_picker_movie">동영상</string>
+    <string name="icon_picker_music">음악</string>
+    <string name="icon_picker_nav_normal">네비게이션</string>
+    <string name="icon_picker_phone">휴대전화</string>
+    <string name="icon_picker_podcast">팟캐스트</string>
+    <string name="icon_picker_rss">RSS</string>
+    <string name="icon_picker_search">검색</string>
+    <string name="icon_picker_sms">메세지</string>
+    <string name="icon_picker_twitter">Twitter</string>
+
+    <!-- String for IconPicker -->
+    <string name="icon_picker_title">아이콘 선택</string>
+    <string name="icon_picker_system_icons_title">시스템 아이콘</string>
+    <string name="icon_picker_gallery_title">갤러리</string>
+    <string name="icon_picker_pack_title">아이콘 팩</string>
 
 </resources>

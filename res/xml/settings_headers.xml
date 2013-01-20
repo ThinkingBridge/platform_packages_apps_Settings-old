@@ -62,6 +62,7 @@
     <header android:id="@+id/userinterface"
             android:title="@string/userinterface_title" />
 
+    <!-- Customized -->
     <header android:id="@+id/customized"
             android:title="@string/customized_title"
             android:icon="@drawable/ic_settings_customized" >
@@ -71,6 +72,7 @@
                 android:targetPackage="com.thinkingbridge.customized" />
     </header>
 
+    <!-- Themes -->
     <header android:id="@+id/themes"
             android:title="@string/themes_title"
             android:icon="@drawable/ic_settings_themes" >
@@ -79,7 +81,15 @@
                 android:targetPackage="com.tmobile.themechooser"
                 android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
-
+    
+    <!-- Lock screen -->
+    <header
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.thinkingbridge.LockscreenTargets"
+        android:title="@string/lockscreen_target_title"
+        android:icon="@drawable/ic_settings_lockscreens"
+        
+    <!-- Advanced Settings -->
     <header android:id="@+id/advanced_settings"
             android:title="@string/advanced_settings_title"
             android:icon="@drawable/ic_settings_advanced">
