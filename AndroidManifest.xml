@@ -762,7 +762,7 @@
         
         <service android:name="OnBootCompleted" >
             <intent-filter>
-                <action android:na,e="OnBootCompleted">
+                <action android:name="OnBootCompleted">
                 </action>
             </intent-filter>
         </service>
