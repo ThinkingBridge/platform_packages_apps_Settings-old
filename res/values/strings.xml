@@ -4434,6 +4434,8 @@
 
     <string name="mod_version">ROM version</string>
     <string name="mod_version_default">Unknown</string>
+    
+    <string name="cpu_settings">CPU Settings</string>
 
     <!-- Quiet hours #CM -->
     <string name="quiet_hours_title">Quiet hours</string>
@@ -4464,5 +4466,28 @@
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
     
     <string name="headset_connect_player_title">Launch music app on connect</string>
+
+    <!-- CPU settings -->
+    <string name="cpu_governors_title">Governor</string>
+    <string name="cpu_governors_summary">%S</string>
+    <string name="cpu_min_freq_title">Min CPU frequency</string>
+    <string name="cpu_min_freq_summary">%s</string>
+    <string name="cpu_max_freq_title">Max CPU frequency</string>
+    <string name="cpu_max_freq_summary">%s</string>
+    <string name="cpu_schedulers_title">Scheduler</string>
+    <string name="cpu_schedulers_summary">%s</string>
+    <string name="feature_not_supported">Your kernel does not support</string>
+
+    <!-- Sound settings -->
+    <string name="bln_title">Back Light Notification</string>
+    <string name="bln_summary">Enable capacitive buttons to emulate LED notifications</string>
+    <string name="bln_blink_title">BLN blink</string>
+    <string name="bln_blink_summary">Capacitive buttons will blink when notification is received</string>
+    <string name="high_perf_sound_title">High performance sound</string>
+    <string name="high_perf_sound_summary">Improve sound quality through driver</string>
+
+    <!-- Display settings -->
+    <string name="gpu_clock_title">GPU clock speed</string>
+    <string name="gpu_clock_summary" translatable="false">%1$s</string>
 
 </resources>

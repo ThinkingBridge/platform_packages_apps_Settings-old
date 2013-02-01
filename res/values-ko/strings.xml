@@ -1843,6 +1843,8 @@
 
     <string name="mod_version">롬 버전</string>
     <string name="mod_version_default">알수없음</string>
+    
+    <string name="cpu_settings">CPU 설정</string>
 
     <!-- Quiet hours #CM -->
     <string name="quiet_hours_title">취침 모드</string>
@@ -1890,5 +1892,16 @@
     
     <string name="headset_category_title">헤드셋</string>
     <string name="headset_connect_player_title">헤드셋이 연결되면 음악앱 실행</string>
+    
+    <!-- CPU settings -->
+    <string name="cpu_governors_title">가버너</string>
+    <string name="cpu_governors_summary">%S</string>
+    <string name="cpu_min_freq_title">최소 CPU 클럭</string>
+    <string name="cpu_min_freq_summary">%s</string>
+    <string name="cpu_max_freq_title">최대 CPU 클럭</string>
+    <string name="cpu_max_freq_summary">%s</string>
+    <string name="cpu_schedulers_title">스케쥴러</string>
+    <string name="cpu_schedulers_summary">%s</string>
+    <string name="feature_not_supported">현재커널은 지원하지 않습니다</string>
 
 </resources>
