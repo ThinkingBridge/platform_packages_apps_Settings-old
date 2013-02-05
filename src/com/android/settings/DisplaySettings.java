@@ -18,6 +18,7 @@ package com.android.settings;
 
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
 
+import android.app.ActivityManagerNative;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
 import android.content.BroadcastReceiver;
@@ -26,16 +27,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.WifiDisplayStatus;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.RemoteException;
 import android.preference.CheckBoxPreference;
-import android.os.Handler;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.util.Log;
@@ -132,20 +135,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mFontSizePref = (WarnedListPreference) findPreference(KEY_FONT_SIZE);
         mFontSizePref.setOnPreferenceChangeListener(this);
         mFontSizePref.setOnPreferenceClickListener(this);
-        mNotificationPulse = (CheckBoxPreference) findPreference(KEY_NOTIFICATION_PULSE);
-        if (mNotificationPulse != null
-                && getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveNotificationLed) == false) {
-            getPreferenceScreen().removePreference(mNotificationPulse);
-        } else {
-            try {
-                mNotificationPulse.setChecked(Settings.System.getInt(resolver,
-                        Settings.System.NOTIFICATION_LIGHT_PULSE) == 1);
-                mNotificationPulse.setOnPreferenceChangeListener(this);
-            } catch (SettingNotFoundException snfe) {
-                Log.e(TAG, Settings.System.NOTIFICATION_LIGHT_PULSE + " not found");
-            }
-        }
         
         mGpuClockPref = (ListPreference) findPreference(KEY_GPU_CLOCK);
         if (!getResources().getBoolean(R.bool.device_enable_gpu_clock)) {
@@ -312,8 +301,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     public void onResume() {
         super.onResume();
         updateDisplayRotationPreferenceDescription();
-        updateLightPulseDescription();
-        updateBatteryPulseDescription();
 
         RotationPolicy.registerRotationPolicyListener(getActivity(),
                 mRotationPolicyListener);
