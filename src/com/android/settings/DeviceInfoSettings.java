@@ -205,13 +205,14 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
             if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setClassName(DeviceInfoSettings.this, InfoCircus.class);
+                intent.setClassName("android",
+                        com.android.internal.app.TBLogoActivity.class.getName());
                 try {
                     startActivity(intent);
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
-                }		
-           }	      
+                }
+            }      
         } else if (preference.getKey().equals(KEY_BUILD_NUMBER)) {
             if (mDevHitCountdown > 0) {
                 mDevHitCountdown--;

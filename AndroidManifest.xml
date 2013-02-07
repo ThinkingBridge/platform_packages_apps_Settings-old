@@ -88,9 +88,6 @@
                 android:taskAffinity="com.android.settings"
                 android:parentActivityName="Settings">
         </activity>
-        
-
-
 
         <activity android:name="CreateShortcut" android:label="@string/settings_shortcut"
             android:theme="@style/Theme.CreateShortCut">
@@ -263,14 +260,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
             </intent-filter>
-        </activity>
-        
-         <activity android:name="com.android.settings.InfoCircus"
-android:screenOrientation="portrait"
-android:configChanges="orientation|keyboardHidden"
-                android:taskAffinity="com.android.settings"
-android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
-                android:parentActivityName="Settings">
         </activity>
 
         <activity android:name="Settings$BluetoothSettingsActivity"
@@ -1487,7 +1476,6 @@ android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/wireless_settings" />
         </activity>
-        
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
