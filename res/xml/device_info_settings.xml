@@ -34,7 +34,7 @@
         
         <!-- About ROM -->
         <PreferenceScreen
-            android:key=about_thinkingbridge"
+            android:key="about_thinkingbridge"
             android:fragment="com.android.settings.thinkingbridge.About"
             android:title="@string/title_about" />
 

@@ -30,8 +30,8 @@
 			thinkingbridge:donateLink="@string/donate_bridge" />
 
 		<com.android.settings.widgets.DeveloperPreference
-			android:title="Ultimate"
-			thinkingbridge:nameDev="Ultimate"
+			android:title="jkl5616"
+			thinkingbridge:nameDev="jkl5616"
 			thinkingbridge:twitterHandle="jkl5616" />
 		
 		<com.android.settings.widgets.DeveloperPreference
@@ -54,7 +54,7 @@
 			android:title="AOKP"
 			thinkingbridge:nameDev="AOKP"
 			thinkingbridge:twitterHandle="aokp_rom"
-            thinkingbridge:donateLink="@string/donate_aokp" />
+			thinkingbridge:donateLink="@string/donate_aokp" />
 
         <com.android.settings.widgets.DeveloperPreference
 			android:title="CyanogenMod"
@@ -65,7 +65,7 @@
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="Daniel MM"
 			thinkingbridge:nameDev="Daniel MM"
-			thinkingbridge:twitterHandle="daxxmax"
+			thinkingbridge:twitterHandle="daxinonito"
 			thinkingbridge:donateLink="@string/donate_daxxmax" />
 
 		<com.android.settings.widgets.DeveloperPreference

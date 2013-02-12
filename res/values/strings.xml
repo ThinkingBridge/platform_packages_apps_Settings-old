@@ -4522,7 +4522,7 @@
    <string name="contributors">Contributors</string>
    <string name="thinkingbridge">ThinkingBridge ROM</string>
    <string name="thinkingbridge_website_title">Our Website</string>
-   <string name="thinkingbridge_website_summary">tbridge.kr \n Find all latest experiments and news here.</string>
+   <string name="thinkingbridge_website_summary">tbridge.kr \nFind all latest experiments and news here.</string>
    <string name="thinkingbridge_source_title">Our Source</string>
    <string name="thinkingbridge_source_summary">ThinkingBridge is fully open source. You can always check out our movements at github.com/ThinkingBridge</string>
    <string name="donate_bridge">http://forum.xda-developers.com/donatetome.php?u=4567772</string>
