@@ -1922,5 +1922,14 @@
     
     <!-- Hostname setting -->
     <string name="device_hostname">디바이스 호스트네임</string>
+    
+    <!-- About -->
+   <string name="title_about">이 롬에 대해서</string>
+   <string name="devs">개발자</string>
+   <string name="contributors">도와주신분들</string>
+   <string name="thinkingbridge_website_title">웹 사이트</string>
+   <string name="thinkingbridge_website_summary">tbridge.kr \n 롬에대한 모든 뉴스를 여기서 보실수있습니다.</string>
+   <string name="thinkingbridge_source_title">소스</string>
+   <string name="thinkingbridge_source_summary">ThinkingBridge 는 오픈소스입니다. 우리가 무엇을 하는 이곳에서 확인할수있습니다. github.com/ThinkingBridge</string>
 
 </resources>

@@ -31,6 +31,12 @@
                     android:targetPackage="@string/additional_system_update"
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
+        
+        <!-- About ROM -->
+        <PreferenceScreen
+            android:key=about_thinkingbridge"
+            android:fragment="com.android.settings.thinkingbridge.About"
+            android:title="@string/title_about" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"

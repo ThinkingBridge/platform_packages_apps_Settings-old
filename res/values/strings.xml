@@ -4515,5 +4515,19 @@
    <!-- Stylus Icon -->
    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
    <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
+   
+   <!-- About -->
+   <string name="title_about">About this ROM</string>
+   <string name="devs">Developers</string>
+   <string name="contributors">Contributors</string>
+   <string name="thinkingbridge">ThinkingBridge ROM</string>
+   <string name="thinkingbridge_website_title">Our Website</string>
+   <string name="thinkingbridge_website_summary">tbridge.kr \n Find all latest experiments and news here.</string>
+   <string name="thinkingbridge_source_title">Our Source</string>
+   <string name="thinkingbridge_source_summary">ThinkingBridge is fully open source. You can always check out our movements at github.com/ThinkingBridge</string>
+   <string name="donate_bridge">http://forum.xda-developers.com/donatetome.php?u=4567772</string>
+   <string name="donate_daxxmax">http://forum.xda-developers.com/donatetome.php?u=1216319</string>
+   <string name="donate_aokp">http://goo.gl/tFXre</string>
+   <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
 
 </resources>
