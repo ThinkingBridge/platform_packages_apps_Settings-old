@@ -1932,8 +1932,8 @@
    <string name="devs">개발자</string>
    <string name="contributors">도움을주신분들</string>
    <string name="thinkingbridge_website_title">웹 사이트</string>
-   <string name="thinkingbridge_website_summary">tbridge.kr \n롬에대한 모든 뉴스를 여기서 보실수있습니다.</string>
+   <string name="thinkingbridge_website_summary">tbridge.kr \n롬에대한 모든 뉴스를 여기서 보실 수 있습니다.</string>
    <string name="thinkingbridge_source_title">소스</string>
-   <string name="thinkingbridge_source_summary">ThinkingBridge 는 오픈소스입니다. 우리가 무엇을 하는 이곳에서 확인할수있습니다. github.com/ThinkingBridge</string>
+   <string name="thinkingbridge_source_summary">ThinkingBridge 는 오픈소스입니다. 우리가 무엇을 하는지 이곳에서 확인 할 수 있습니다. github.com/ThinkingBridge</string>
 
 </resources>

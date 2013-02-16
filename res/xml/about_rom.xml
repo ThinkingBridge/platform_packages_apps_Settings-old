@@ -25,14 +25,15 @@
 		
 	    <com.android.settings.widgets.DeveloperPreference
 			android:title="Bridge"
-			thinkingbridge:nameDev="Bridge"
+			thinkingbridge:nameDev="Bridge/htchoi1995"
 			thinkingbridge:twitterHandle="htchoi1995"
 			thinkingbridge:donateLink="@string/donate_bridge" />
 
 		<com.android.settings.widgets.DeveloperPreference
-			android:title="jkl5616"
+			android:title="ulti2/woorim98"
 			thinkingbridge:nameDev="jkl5616"
-			thinkingbridge:twitterHandle="jkl5616" />
+			thinkingbridge:twitterHandle="jkl5616"
+	        thinkingbridge:donateLink="@string/donate_woorim98"/>
 		
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="boseak"
