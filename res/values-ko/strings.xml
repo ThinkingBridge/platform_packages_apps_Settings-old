@@ -522,6 +522,10 @@
     <string name="android_beam_disabled_summary" msgid="1737782116894793393">"NFC가 꺼져 있어 사용할 수 없음"</string>
     <string name="android_beam_label" msgid="6257036050366775040">"Android Beam"</string>
     <string name="android_beam_explained" msgid="6981652347448777459">"이 기능을 사용하도록 설정하면 기기를 서로 가까이 두어 앱 콘텐츠를 다른 NFC 지원 기기로 전송할 수 있습니다. 예를 들어 브라우저 페이지, YouTube 동영상, 주소록 등을 전송할 수 있습니다."\n\n"서로 뒷면을 향하는 방식 등으로 기기를 맞댄 후에 화면을 터치하기만 하면 됩니다. 전송할 대상은 앱이 결정합니다."</string>
+    <string name="nfc_polling_mode_title">NFC 폴링 모드</string>
+    <string name="nfc_polling_mode_screen_off">화면 꺼짐</string>
+    <string name="nfc_polling_mode_screen_locked">화면 켜짐, 잠금</string>
+    <string name="nfc_polling_mode_screen_unlocked">화면 켜짐, 잠금해제 (기본값)</string>
     <string name="nsd_quick_toggle_title" msgid="3125572815278848258">"네트워크 서비스 검색"</string>
     <string name="nsd_quick_toggle_summary" msgid="155692215972781276">"다른 기기의 앱에서 이 기기의 앱을 검색하도록 허용"</string>
     <string name="wifi_quick_toggle_title" msgid="874495178395350104">"Wi-Fi"</string>
@@ -1919,6 +1923,10 @@
     <!-- Hostname setting -->
     <string name="device_hostname">디바이스 호스트네임</string>
     
+   <!-- Stylus Icon -->
+   <string name="stylus_icon_enabled_title">키보드를 사용할 때 아이콘 표시</string>
+   <string name="stylus_icon_enabled_summary">입력할때 상단바에 입력 방법 선택 아이콘 표시</string>
+
     <!-- About -->
    <string name="title_about">이 롬에 대해서</string>
    <string name="devs">개발자</string>
