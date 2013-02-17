@@ -240,8 +240,10 @@ public class SoundSettings extends SettingsPreferenceFragment implements
 
         mSafeHeadsetVolume = (CheckBoxPreference) findPreference(KEY_SAFE_HEADSET_VOLUME);
         mSafeHeadsetVolume.setPersistent(false);
-        mSafeHeadsetVolume.setChecked(Settings.System.getBoolean(resolver,
-                Settings.System.MANUAL_SAFE_MEDIA_VOLUME, true));
+        boolean safeMediaVolumeEnabled = getResources().getBoolean(
+                com.android.internal.R.bool.config_safe_media_volume_enabled);
+        mSafeHeadsetVolume.setChecked(Settings.System.getInt(resolver,
+                Settings.System.SAFE_HEADSET_VOLUME, safeMediaVolumeEnabled ? 1 : 0) != 0);
 
         Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         if (vibrator == null || !vibrator.hasVibrator()) {
@@ -410,8 +412,8 @@ public class SoundSettings extends SettingsPreferenceFragment implements
                     mLockSounds.isChecked() ? 1 : 0);
 
         } else if (preference == mSafeHeadsetVolume) {
-            Settings.System.putBoolean(getContentResolver(), Settings.System.MANUAL_SAFE_MEDIA_VOLUME,
-                    mSafeHeadsetVolume.isChecked());
+            Settings.System.putInt(getContentResolver(), Settings.System.SAFE_HEADSET_VOLUME,
+                    mSafeHeadsetVolume.isChecked() ? 1 : 0);
 
         } else if (preference == mMusicFx) {
             // let the framework fire off the intent
