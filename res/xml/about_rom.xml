@@ -44,6 +44,11 @@
 			android:title="black9"
 			thinkingbridge:nameDev="black9"
 			thinkingbridge:twitterHandle="csu02049" />
+			
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="DJBhardwaj"
+			thinkingbridge:nameDev="DJBhardwaj"
+			thinkingbridge:twitterHandle="DJBhardwaj" />
 
 	</PreferenceCategory>
 
