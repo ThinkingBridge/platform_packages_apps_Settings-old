@@ -4,34 +4,18 @@
 	xmlns:thinkingbridge="http://schemas.android.com/apk/res/com.android.settings">
 
 	<PreferenceCategory
-		android:key="thinkingbridge"
-		android:title="@string/thinkingbridge">
-
-		<Preference
-			android:key="thinkingbridge_website"
-			android:title="@string/thinkingbridge_website_title"
-			android:summary="@string/thinkingbridge_website_summary" />
-
-		<Preference
-			android:key="thinkingbridge_source"
-			android:title="@string/thinkingbridge_source_title"
-			android:summary="@string/thinkingbridge_source_summary" />
-
-	</PreferenceCategory>
-
-	<PreferenceCategory
 		android:key="devs"
 		android:title="@string/devs">
 		
 	    <com.android.settings.widgets.DeveloperPreference
 			android:title="Bridge"
-			thinkingbridge:nameDev="Bridge/htchoi1995"
+			thinkingbridge:nameDev="htchoi5609"
 			thinkingbridge:twitterHandle="htchoi1995"
 			thinkingbridge:donateLink="@string/donate_bridge" />
 
 		<com.android.settings.widgets.DeveloperPreference
-			android:title="ulti2/woorim98"
-			thinkingbridge:nameDev="jkl5616"
+			android:title="woorim98"
+			thinkingbridge:nameDev="woorim98"
 			thinkingbridge:twitterHandle="jkl5616"
 	        thinkingbridge:donateLink="@string/donate_woorim98"/>
 		
@@ -49,6 +33,22 @@
 			android:title="DJBhardwaj"
 			thinkingbridge:nameDev="DJBhardwaj"
 			thinkingbridge:twitterHandle="DJBhardwaj" />
+
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:key="thinkingbridge"
+		android:title="@string/thinkingbridge">
+
+		<Preference
+			android:key="thinkingbridge_website"
+			android:title="@string/thinkingbridge_website_title"
+			android:summary="@string/thinkingbridge_website_summary" />
+
+		<Preference
+			android:key="thinkingbridge_source"
+			android:title="@string/thinkingbridge_source_title"
+			android:summary="@string/thinkingbridge_source_summary" />
 
 	</PreferenceCategory>
 
