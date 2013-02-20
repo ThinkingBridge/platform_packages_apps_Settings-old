@@ -133,13 +133,6 @@
         android:icon="@drawable/ic_settings_cpu"
         android:title="@string/cpu_settings"
         android:id="@+id/cpu_settings" />
-
-    <!-- Manage users -->
-    <header
-        android:fragment="com.android.settings.users.UserSettings"
-        android:icon="@drawable/ic_settings_multiuser"
-        android:title="@string/user_settings_title"
-        android:id="@+id/user_settings" />
     
     <!-- DeviceParts Device Specific settings -->
     <header
@@ -151,6 +144,13 @@
             android:targetPackage="com.cyanogenmod.settings.device"
             android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
     </header>
+
+    <!-- Manage users -->
+    <header
+        android:fragment="com.android.settings.users.UserSettings"
+        android:icon="@drawable/ic_settings_multiuser"
+        android:title="@string/user_settings_title"
+        android:id="@+id/user_settings" />
 
     <!-- Manufacturer hook -->
     <header

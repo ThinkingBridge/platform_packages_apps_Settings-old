@@ -2457,9 +2457,6 @@
     <!-- Displayed when user launches a widget configuration activity that was uninstalled -->
     <string name="activity_not_found">Application is not installed on your phone.</string>
 
-    <!-- Device specific settings -->
-    <string name="advanced_settings_title">Device options</string>
-
     <!-- Applications Settings --> <skip />
     <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
     <string name="manageapplications_settings_title">Manage apps</string>
@@ -4417,6 +4414,7 @@
     <string name="customized_title">Customize</string>
     <string name="themes_title">Themes</string>
     <string name="launcher_settings_title">Launcher</string>
+    <string name="advanced_settings_title">Advanced</string>
 
     <string name="mod_version">ROM version</string>
     <string name="mod_version_default">Unknown</string>
