@@ -4411,7 +4411,7 @@
     <!--ThinkingBridge-->
 
     <string name="userinterface_title">USER INTERFACE</string>
-    <string name="customized_title">Customize</string>
+    <string name="customized_title">ROM Settings</string>
     <string name="themes_title">Themes</string>
     <string name="launcher_settings_title">Launcher</string>
     <string name="advanced_settings_title">Advanced</string>

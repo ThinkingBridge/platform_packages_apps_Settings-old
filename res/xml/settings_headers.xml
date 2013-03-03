@@ -68,8 +68,8 @@
             android:icon="@drawable/ic_settings_customized" >
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.thinkingbridge.customized.CustomizedActivity"
-            android:targetPackage="com.thinkingbridge.customized" />
+            android:targetClass="com.aokp.romcontrol.ROMControlActivity"
+            android:targetPackage="com.aokp.romcontrol" />
     </header>
 
     <!-- Themes -->
