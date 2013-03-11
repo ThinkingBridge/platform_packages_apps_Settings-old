@@ -1887,7 +1887,6 @@
     <string name="mem_info">메모리</string>
 
     <string name="safe_headset_volume_title">안전한 헤드셋 볼륨</string>
-    <string name="safe_headset_volume_summary">헤드셋이 연결될때 큰 소리를 방지</string>
 
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">뒤로 가기 버튼으로 앱 강제종료</string>

@@ -4444,7 +4444,6 @@
     <string name="link_volume_mutes">Link mute states</string>
 
     <string name="safe_headset_volume_title">Safe headset volume</string>
-    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
 
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
