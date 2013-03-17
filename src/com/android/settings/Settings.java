@@ -481,10 +481,6 @@ public class Settings extends PreferenceActivity
                         || Utils.isMonkeyRunning()) {
                     target.remove(i);
                 }
-            } else if (id == R.id.development_settings) {
-                if (!showDev) {
-                    target.remove(i);
-                }
             }
 
             if (i < target.size() && target.get(i) == header
