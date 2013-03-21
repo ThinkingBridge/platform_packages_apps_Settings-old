@@ -1933,22 +1933,9 @@
    <string name="title_about_summary">팀을 알아보세요.</string>
    <string name="devs">개발자</string>
    <string name="contributors">도움을 주신 분들</string>
-   <string name="thinkingbridge">Team Bridge</string>>
+   <string name="thinkingbridge">Team Bridge</string>
    <string name="thinkingbridge_website_title">웹 사이트</string>
    <string name="thinkingbridge_website_summary">tbridge.kr \n롬에대한 모든 뉴스를 여기서 보실 수 있습니다.</string>
-   <string name="donate_woorim98">http://forum.xda-developers.com/donatetome.php?u=2351386</string>
-   <string name="donate_bridge">http://forum.xda-developers.com/donatetome.php?u=4567772</string>
-   <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG</string>
-   <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
-   <string name="google_thinkingbridge">https://plus.google.com/communities/106602311234699694349?partnerid=gplp0</string>
-   <string name="facebook_thinkingbridge">http://www.facebook.com/ThinkingBridgeROM</string>
-   <string name="github_thinkingbridge">https://github.com/ThinkingBridge</string>
-   <string name="github_htchoi5609">https://github.com/htchoi1995</string>
-   <string name="github_woorim98">https://github.com/jkl5616</string>
-   <string name="github_black9">https://github.com/black9</string>
-   <string name="github_aokp">https://github.com/AOKP</string>
-   <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
-   <string name="github_pa">https://github.com/ParanoidAndroid</string>
    
    <!-- Partition info -->
    <string name="partition_info_title">파티션 정보</string>
