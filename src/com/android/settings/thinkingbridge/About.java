@@ -20,14 +20,12 @@ public class About extends SettingsPreferenceFragment {
     public static final String TAG = "About";
 
     Preference mSiteUrl;
-    Preference mSourceUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.about_rom);
         mSiteUrl = findPreference("thinkingbridge_website");
-        mSourceUrl = findPreference("thinkingbridge_source");
 
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
         ArrayList<Preference> devs = new ArrayList<Preference>();
@@ -49,8 +47,6 @@ public class About extends SettingsPreferenceFragment {
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mSiteUrl) {
             launchUrl("http://tbridge.kr/");
-        } else if (preference == mSourceUrl) {
-            launchUrl("http://github.com/ThinkingBridge");
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
@@ -59,5 +55,11 @@ public class About extends SettingsPreferenceFragment {
         Uri uriUrl = Uri.parse(url);
         Intent donate = new Intent(Intent.ACTION_VIEW, uriUrl);
         getActivity().startActivity(donate);
+        Intent github = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(github);
+        Intent google = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(google);
+        Intent facebook = new Intent(Intent.ACTION_VIEW, uriUrl);
+        getActivity().startActivity(facebook);
     }
 }

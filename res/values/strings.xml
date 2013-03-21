@@ -4499,20 +4499,27 @@
    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
    <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
    
-   <!-- About -->
-   <string name="title_about">About this ROM</string>
+   <!-- About TeamBridge -->
+   <string name="title_about">About ROM</string>
+   <string name="title_about_summary">Get to know the team</string>
    <string name="devs">Developers</string>
    <string name="contributors">Contributors</string>
-   <string name="thinkingbridge">ThinkingBridge ROM</string>
-   <string name="thinkingbridge_website_title">Our Website</string>
+   <string name="thinkingbridge">Team Bridge</string>
+   <string name="thinkingbridge_website_title">TeamBridge Website</string>
    <string name="thinkingbridge_website_summary">tbridge.kr \nFind all latest experiments and news here.</string>
-   <string name="thinkingbridge_source_title">Our Source</string>
-   <string name="thinkingbridge_source_summary">ThinkingBridge is fully open source. You can always check out our movements at github.com/ThinkingBridge</string>
    <string name="donate_woorim98">http://forum.xda-developers.com/donatetome.php?u=2351386</string>
    <string name="donate_bridge">http://forum.xda-developers.com/donatetome.php?u=4567772</string>
-   <string name="donate_daxxmax">http://forum.xda-developers.com/donatetome.php?u=1216319</string>
    <string name="donate_aokp">http://goo.gl/tFXre</string>
    <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
+   <string name="google_thinkingbridge">https://plus.google.com/communities/106602311234699694349?partnerid=gplp0</string>
+   <string name="facebook_thinkingbridge">http://www.facebook.com/ThinkingBridgeROM</string>
+   <string name="github_thinkingbridge">https://github.com/ThinkingBridge</string>
+   <string name="github_htchoi5609">https://github.com/htchoi1995</string>
+   <string name="github_woorim98">https://github.com/jkl5616</string>
+   <string name="github_black9">https://github.com/black9</string>
+   <string name="github_aokp">https://github.com/AOKP</string>
+   <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
+   <string name="github_pa">https://github.com/ParanoidAndroid</string>
    
    <!-- Partition info -->
    <string name="partition_info_title">Partition info</string>

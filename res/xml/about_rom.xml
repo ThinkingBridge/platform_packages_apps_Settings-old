@@ -2,6 +2,25 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:thinkingbridge="http://schemas.android.com/apk/res/com.android.settings">
+	
+    <PreferenceCategory
+		android:key="links"
+		android:title="@string/thinkingbridge">
+
+		<Preference
+			android:key="thinkingbridge_website"
+			android:title="@string/thinkingbridge_website_title"
+			android:summary="@string/thinkingbridge_website_summary" />
+
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="TeamBridge"
+			thinkingbridge:nameDev="TeamBridge"
+			thinkingbridge:twitterHandle="tbridgerom"
+			thinkingbridge:googleLink="@string/google_thinkingbridge"
+			thinkingbridge:facebookLink="@string/facebook_thinkingbridge"
+			thinkingbridge:githubLink="@string/github_thinkingbridge" />
+
+	</PreferenceCategory>
 
 	<PreferenceCategory
 		android:key="devs"
@@ -11,12 +30,14 @@
 			android:title="Bridge"
 			thinkingbridge:nameDev="htchoi5609"
 			thinkingbridge:twitterHandle="htchoi1995"
+			thinkingbridge:githubLink="@string/github_htchoi5609"
 			thinkingbridge:donateLink="@string/donate_bridge" />
 
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="woorim98"
 			thinkingbridge:nameDev="woorim98"
 			thinkingbridge:twitterHandle="jkl5616"
+			thinkingbridge:githubLink="@string/github_woorim98"
 	        thinkingbridge:donateLink="@string/donate_woorim98"/>
 		
 		<com.android.settings.widgets.DeveloperPreference
@@ -27,28 +48,18 @@
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="black9"
 			thinkingbridge:nameDev="black9"
-			thinkingbridge:twitterHandle="csu02049" />
+			thinkingbridge:twitterHandle="csu02049"
+			thinkingbridge:githubLink="@string/github_black9" />
 			
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="DJBhardwaj"
 			thinkingbridge:nameDev="DJBhardwaj"
 			thinkingbridge:twitterHandle="DJBhardwaj" />
-
-	</PreferenceCategory>
-	
-	<PreferenceCategory
-		android:key="thinkingbridge"
-		android:title="@string/thinkingbridge">
-
-		<Preference
-			android:key="thinkingbridge_website"
-			android:title="@string/thinkingbridge_website_title"
-			android:summary="@string/thinkingbridge_website_summary" />
-
-		<Preference
-			android:key="thinkingbridge_source"
-			android:title="@string/thinkingbridge_source_title"
-			android:summary="@string/thinkingbridge_source_summary" />
+		
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="hheajin17"
+			thinkingbridge:nameDev="hheajin17"
+			thinkingbridge:twitterHandle="hheajin17" />
 
 	</PreferenceCategory>
 
@@ -60,24 +71,21 @@
 			android:title="AOKP"
 			thinkingbridge:nameDev="AOKP"
 			thinkingbridge:twitterHandle="aokp_rom"
-			thinkingbridge:donateLink="@string/donate_aokp" />
+			thinkingbridge:donateLink="@string/donate_aokp"
+			thinkingbridge:githubLink="@string/github_aokp" />
 
         <com.android.settings.widgets.DeveloperPreference
 			android:title="CyanogenMod"
 			thinkingbridge:nameDev="CyanogenMod"
 			thinkingbridge:twitterHandle="cyanogenmod"
-			thinkingbridge:donateLink="@string/donate_cyanogenmod" />
-		
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="Daniel MM"
-			thinkingbridge:nameDev="Daniel MM"
-			thinkingbridge:twitterHandle="daxinonito"
-			thinkingbridge:donateLink="@string/donate_daxxmax" />
+			thinkingbridge:donateLink="@string/donate_cyanogenmod"
+			thinkingbridge:githubLink="@string/github_cyanogenmod" />
 
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="ParanoidAndroid"
 			thinkingbridge:nameDev="ParanoidAndroid"
-			thinkingbridge:twitterHandle="paranoid_team" />
+			thinkingbridge:twitterHandle="paranoid_team" 
+			thinkingbridge:githubLink="@string/github_pa"/>
 
 	</PreferenceCategory>
 
