@@ -60,6 +60,11 @@
 			android:title="hheajin17"
 			thinkingbridge:nameDev="hheajin17"
 			thinkingbridge:twitterHandle="hheajin17" />
+		
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="dmc0306"
+			thinkingbridge:nameDev="dmc0306"
+			thinkingbridge:twitterHandle="dmc0306" />
 
 	</PreferenceCategory>
 
