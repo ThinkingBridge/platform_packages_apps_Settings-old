@@ -4450,9 +4450,6 @@
     <string name="start_time_title">Start</string>
     <string name="end_time_title">End</string>
 
-    <string name="link_volume_ringtones">Link volumes</string>
-    <string name="link_volume_mutes">Link mute states</string>
-
     <string name="safe_headset_volume_title">Safe headset volume</string>
 
     <!-- Kill app long-press back -->
@@ -4536,7 +4533,7 @@
    <string name="partition_info_system">/system</string>
    <string name="partition_info_data">/data</string>
    <string name="partition_info_cache">/cache</string>
-   <string name="partition_info_sdcard">/sdcard (FAT)</string>
+   <string name="partition_info_sdcard">/sdcard</string>
    <string name="partition_info_sdext">EXT partition</string>
 
     <!--- Sms security limit -->
