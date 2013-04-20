@@ -1930,7 +1930,7 @@
 
    <!-- About TeamBridge -->
    <string name="title_about">이 롬에 대하여</string>
-   <string name="title_about_summary">팀을 알아보세요.</string>
+   <string name="title_about_summary">팀에대해서 자세히 알아보세요.</string>
    <string name="devs">개발자</string>
    <string name="contributors">도움을 주신 분들</string>
    <string name="thinkingbridge">Team Bridge</string>
@@ -1944,5 +1944,11 @@
    <string name="partition_info_cache">/cache</string>
    <string name="partition_info_sdcard">/sdcard (FAT)</string>
    <string name="partition_info_sdext">EXT 파티션</string>
+   
+   <!-- Share ThinkingBridge ROM -->
+   <string name="share_teambridge">ROM 공유하기</string>
+   <string name="share_teambridge">다른 사람에게 TeamBridge 를 알려주세요.</string>
+   <string name="share_message">ThinkingBridge ROM 을 써보세요! \n홈페이지 : http://www.tbridge.kr \nIRC 채널 : #TeamBridge \n트위터 : @TbridgeROM \n다운로드 : http://goo.gl/Qc5zB</string>
+   <string name="share_chooser_title">롬을 공유해보세요!</string>
 
 </resources>
