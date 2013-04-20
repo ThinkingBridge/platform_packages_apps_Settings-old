@@ -37,11 +37,11 @@
             android:key="about_thinkingbridge"
             android:fragment="com.android.settings.thinkingbridge.About"
             android:title="@string/title_about"
-            android:summary="@string/title_summary" />
+            android:summary="@string/title_about_summary" />
         
         <!-- Share ThinkingBridge ROM -->
         <Preference
-            android:kay="share"
+            android:key="share"
             android:title="@string/share_teambridge"
             android:summary="@string/share_teambridge_summary" />
 

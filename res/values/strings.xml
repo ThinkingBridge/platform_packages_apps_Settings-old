@@ -4561,7 +4561,7 @@
     
     <!-- Share ThinkingBridge ROM -->
    <string name="share_teambridge">Share ThinkingBridge ROM</string>
-   <string name="share_teambridge">Let others know about TeamBridge</string>
+   <string name="share_teambridge_summary">Let others know about TeamBridge</string>
    <string name="share_message">Use ThinkingBridge ROM! \nHomepage : http://www.tbridge.kr \nIRC : #TeamBridge \nTwitter : @TbridgeROM \nDownload : http://goo.gl/Qc5zB</string>
    <string name="share_chooser_title">Share the ROM!</string>
    
