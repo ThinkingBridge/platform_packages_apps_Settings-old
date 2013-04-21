@@ -92,6 +92,11 @@
 			thinkingbridge:twitterHandle="paranoid_team" 
 			thinkingbridge:githubLink="@string/github_pa"/>
 
+		<com.android.settings.widgets.DeveloperPreference
+			android:title="Team-Hydra"
+			thinkingbridge:nameDev="Team-Hydra" 
+			thinkingbridge:githubLink="@string/github_hydra"/>
+
 	</PreferenceCategory>
 
 </PreferenceScreen>

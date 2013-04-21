@@ -4540,6 +4540,7 @@
    <string name="github_aokp">https://github.com/AOKP</string>
    <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
    <string name="github_pa">https://github.com/ParanoidAndroid</string>
+   <string name="github_hydra">https://github.com/Team-Hydra</string>
    
    <!-- Partition info -->
    <string name="partition_info_title">Partition info</string>
