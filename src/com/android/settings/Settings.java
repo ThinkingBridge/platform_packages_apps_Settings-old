@@ -609,7 +609,7 @@ public class Settings extends PreferenceActivity
 
         private final WifiEnabler mWifiEnabler;
         private final BluetoothEnabler mBluetoothEnabler;
-        private final DataEnabler mDataEnabler;
+        //private final DataEnabler mDataEnabler;
         private AuthenticatorHelper mAuthHelper;
 
         private static class HeaderViewHolder {
@@ -625,8 +625,7 @@ public class Settings extends PreferenceActivity
             if (header.fragment == null && header.intent == null) {
                 return HEADER_TYPE_CATEGORY;
             } else if (header.id == R.id.wifi_settings
-            		|| header.id == R.id.bluetooth_settings
-            		|| header.id == R.id.data_usage_settings) {
+            		|| header.id == R.id.bluetooth_settings {
                 return HEADER_TYPE_SWITCH;
             } else {
                 return HEADER_TYPE_NORMAL;
@@ -670,7 +669,7 @@ public class Settings extends PreferenceActivity
             // Switches inflated from their layouts. Must be done before adapter is set in super
             mWifiEnabler = new WifiEnabler(context, new Switch(context));
             mBluetoothEnabler = new BluetoothEnabler(context, new Switch(context));
-            mDataEnabler = new DataEnabler(context, new Switch(context));
+            //mDataEnabler = new DataEnabler(context, new Switch(context));
         }
 
         @Override
@@ -729,8 +728,6 @@ public class Settings extends PreferenceActivity
                         mWifiEnabler.setSwitch(holder.switch_);
                     } else if (header.id == R.id.bluetooth_settings) {
                         mBluetoothEnabler.setSwitch(holder.switch_);
-                    } else if (header.id == R.id.data_usage_settings) {
-                    	mDataEnabler.setSwitch(holder.switch_);
                     }
                     // No break, fall through on purpose to update common fields
 
@@ -767,13 +764,13 @@ public class Settings extends PreferenceActivity
         public void resume() {
             mWifiEnabler.resume();
             mBluetoothEnabler.resume();
-            mDataEnabler.resume();
+            //mDataEnabler.resume();
         }
 
         public void pause() {
             mWifiEnabler.pause();
             mBluetoothEnabler.pause();
-            mDataEnabler.resume();
+            //mDataEnabler.resume();
         }
     }
 
