@@ -23,6 +23,7 @@ import com.android.settings.accounts.AuthenticatorHelper;
 import com.android.settings.accounts.ManageAccountsSettings;
 import com.android.settings.applications.InstalledAppDetails;
 import com.android.settings.applications.ManageApplications;
+import com.android.settings.airplane.AirplaneEnabler;
 import com.android.settings.bluetooth.BluetoothEnabler;
 import com.android.settings.DataEnabler;
 import com.android.settings.deviceinfo.Memory;
@@ -610,6 +611,7 @@ public class Settings extends PreferenceActivity
         private final WifiEnabler mWifiEnabler;
         private final BluetoothEnabler mBluetoothEnabler;
         //private final DataEnabler mDataEnabler;
+        private final AirplaneEnabler mAirEnabler;
         private AuthenticatorHelper mAuthHelper;
 
         private static class HeaderViewHolder {
@@ -624,7 +626,9 @@ public class Settings extends PreferenceActivity
         static int getHeaderType(Header header) {
             if (header.fragment == null && header.intent == null) {
                 return HEADER_TYPE_CATEGORY;
-            } else if (header.id == R.id.wifi_settings || header.id == R.id.bluetooth_settings) {
+            } else if (header.id == R.id.wifi_settings
+            		|| header.id == R.id.bluetooth_settings
+            		|| header.id == R.id.airplane_mode) {
                 return HEADER_TYPE_SWITCH;
             } else {
                 return HEADER_TYPE_NORMAL;
@@ -669,6 +673,7 @@ public class Settings extends PreferenceActivity
             mWifiEnabler = new WifiEnabler(context, new Switch(context));
             mBluetoothEnabler = new BluetoothEnabler(context, new Switch(context));
             //mDataEnabler = new DataEnabler(context, new Switch(context));
+            mAirEnabler = new AirplaneEnabler(context, new Switch(context));
         }
 
         @Override
@@ -727,6 +732,8 @@ public class Settings extends PreferenceActivity
                         mWifiEnabler.setSwitch(holder.switch_);
                     } else if (header.id == R.id.bluetooth_settings) {
                         mBluetoothEnabler.setSwitch(holder.switch_);
+                    } else if (header.id == R.id.airplane_mode){
+                        mAirEnabler.setSwitch(holder.switch_);
                     }
                     // No break, fall through on purpose to update common fields
 
@@ -764,12 +771,14 @@ public class Settings extends PreferenceActivity
             mWifiEnabler.resume();
             mBluetoothEnabler.resume();
             //mDataEnabler.resume();
+            mAirEnabler.resume();
         }
 
         public void pause() {
             mWifiEnabler.pause();
             mBluetoothEnabler.pause();
             //mDataEnabler.resume();
+            mAirEnabler.resume();
         }
     }
 
