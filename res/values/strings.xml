@@ -4572,7 +4572,7 @@
     <!-- Share ThinkingBridge ROM -->
    <string name="share_teambridge">Share ThinkingBridge ROM</string>
    <string name="share_teambridge_summary">Let others know about TeamBridge</string>
-   <string name="share_message">Use ThinkingBridge ROM \n\nHomepage : http://www.tbridge.kr \n\nIRC : #TeamBridge \n\nTwitter : @TbridgeROM \n\nDownload : http://goo.gl/Qc5zB</string>
+   <string name="share_message">Use ThinkingBridge ROM \n\nWebsite : http://www.tbridge.kr \n\nIRC : #TeamBridge \n\nTwitter : @TbridgeROM \n\nDownload : http://goo.gl/Qc5zB</string>
    <string name="share_chooser_title">Share the ROM</string>
 
     <!-- Automatic brightness customization -->
