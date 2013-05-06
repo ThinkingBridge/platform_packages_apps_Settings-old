@@ -53,6 +53,12 @@
             android:key="share"
             android:title="@string/share_teambridge"
             android:summary="@string/share_teambridge_summary" />
+        
+        <!-- Support TeamBridge -->
+        <Preference
+            android:key="support"
+            android:title="@string/support_teambridge"
+            android:summary="@string/support_summary" />
 
         <!-- Legal Information -->
         <PreferenceScreen

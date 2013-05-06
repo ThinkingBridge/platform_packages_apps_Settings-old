@@ -4536,8 +4536,6 @@
    <string name="thinkingbridge">Team Bridge</string>
    <string name="thinkingbridge_website_title">TeamBridge Website</string>
    <string name="thinkingbridge_website_summary">tbridge.kr \nFind all latest experiments and news here.</string>
-   <string name="donate_woorim98">http://forum.xda-developers.com/donatetome.php?u=2351386</string>
-   <string name="donate_bridge">http://forum.xda-developers.com/donatetome.php?u=4567772</string>
    <string name="donate_aokp">http://goo.gl/tFXre</string>
    <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
    <string name="google_thinkingbridge">https://plus.google.com/communities/106602311234699694349?partnerid=gplp0</string>
@@ -4549,7 +4547,6 @@
    <string name="github_aokp">https://github.com/AOKP</string>
    <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
    <string name="github_pa">https://github.com/ParanoidAndroid</string>
-   <string name="github_hydra">https://github.com/Team-Hydra</string>
    
    <!-- Partition info -->
    <string name="partition_info_title">Partition info</string>
@@ -4574,6 +4571,10 @@
    <string name="share_teambridge_summary">Let others know about TeamBridge</string>
    <string name="share_message">Use ThinkingBridge ROM \n\nWebsite : http://www.tbridge.kr \n\nIRC : #TeamBridge \n\nTwitter : @TbridgeROM \n\nDownload : http://goo.gl/Qc5zB</string>
    <string name="share_chooser_title">Share the ROM</string>
+   
+   <!-- Support TeamBridge -->
+   <string name="support_teambridge">Support TeamBridge</string>
+   <string name="support_summary">Show your support for the Team's work</string>
 
     <!-- Automatic brightness customization -->
     <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>

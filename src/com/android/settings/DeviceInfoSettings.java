@@ -29,6 +29,7 @@ import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.util.Log;
+import android.net.Uri;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -68,6 +69,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String TEAM_BRIDGE_SHARE = "share";
+    private static final String TEAM_BRIDGE_SUPPORT = "support";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
     private static final String KEY_MOD_VERSION = "mod_version";
@@ -178,6 +180,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         removePreferenceIfBoolFalse(KEY_REGULATORY_INFO,
                 R.bool.config_show_regulatory_info);
     }
+    
+    getPreferenceScreen().findPreference(TEAM_BRIDGE_SUPPORT).setWidgetLayoutResource(R.layout.support);
 
     @Override
     public void onResume() {
@@ -254,6 +258,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     	intent.putExtra(Intent.EXTRA_TEXT, String.format(
     			getActivity().getString(R.string.share_message)));
     	startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
+    } else if (preference.getKey().equals(TEAM_BRIDGE_SUPPORT)) {
+    	Intent browserIntent = new Intent(Intent.ACTION_VIEW,
+    			Uri.parse(getActivity().getString(R.string.support_teambridge)));
+    	startActivity(browserIntent);
     }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }

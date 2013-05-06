@@ -30,15 +30,13 @@
 			android:title="Bridge"
 			thinkingbridge:nameDev="htchoi5609"
 			thinkingbridge:twitterHandle="htchoi1995"
-			thinkingbridge:githubLink="@string/github_htchoi5609"
-			thinkingbridge:donateLink="@string/donate_bridge" />
+			thinkingbridge:githubLink="@string/github_htchoi5609" />
 
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="woorim98"
 			thinkingbridge:nameDev="woorim98"
 			thinkingbridge:twitterHandle="jkl5616"
-			thinkingbridge:githubLink="@string/github_woorim98"
-	        thinkingbridge:donateLink="@string/donate_woorim98"/>
+			thinkingbridge:githubLink="@string/github_woorim98" />
 		
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="boseak"
@@ -48,8 +46,7 @@
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="black9"
 			thinkingbridge:nameDev="black9"
-			thinkingbridge:twitterHandle="csu02049"
-			thinkingbridge:githubLink="@string/github_black9" />
+			thinkingbridge:twitterHandle="csu02049" />
 			
 		<com.android.settings.widgets.DeveloperPreference
 			android:title="DJBhardwaj"
@@ -91,11 +88,6 @@
 			thinkingbridge:nameDev="ParanoidAndroid"
 			thinkingbridge:twitterHandle="paranoid_team" 
 			thinkingbridge:githubLink="@string/github_pa"/>
-
-		<com.android.settings.widgets.DeveloperPreference
-			android:title="Team-Hydra"
-			thinkingbridge:nameDev="Team-Hydra" 
-			thinkingbridge:githubLink="@string/github_hydra"/>
 
 	</PreferenceCategory>
 
