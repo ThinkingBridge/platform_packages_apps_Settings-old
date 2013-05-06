@@ -4566,7 +4566,7 @@
    
    <!-- Support TeamBridge -->
    <string name="support_teambridge">Support TeamBridge</string>
-   <string name="support_teambridge_summary">Show your support for the Team's work</string>
+   <string name="support_teambridge_summary">Show your support for the Team\'s work</string>
    <string name="paypal_link" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=L9FW2AR2U3LCL&amp;lc=KR&amp;item_name=Support%20TeamBridge&amp;item_number=htchoi1995&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted</string>
 
     <!-- Automatic brightness customization -->

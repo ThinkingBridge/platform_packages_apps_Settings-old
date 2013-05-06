@@ -1945,6 +1945,6 @@
    
    <!-- Support TeamBridge -->
    <string name="support_teambridge">TeamBridge 지원하기</string>
-   <string name="support_teambridge_summary">Show your support for the Team's work</string>
+   <string name="support_teambridge_summary">Show your support for the Team\'s work</string>
 
 </resources>

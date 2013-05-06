@@ -179,9 +179,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         // Remove regulatory information if not enabled.
         removePreferenceIfBoolFalse(KEY_REGULATORY_INFO,
                 R.bool.config_show_regulatory_info);
+        
+        getPreferenceScreen().findPreference(TEAM_BRIDGE_SUPPORT).setWidgetLayoutResource(R.layout.support);
     }
-    
-    getPreferenceScreen().findPreference(TEAM_BRIDGE_SUPPORT).setWidgetLayoutResource(R.layout.support);
 
     @Override
     public void onResume() {
