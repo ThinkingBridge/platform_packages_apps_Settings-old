@@ -4547,14 +4547,6 @@
    <string name="github_aokp">https://github.com/AOKP</string>
    <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
    <string name="github_pa">https://github.com/ParanoidAndroid</string>
-   
-   <!-- Partition info -->
-   <string name="partition_info_title">Partition info</string>
-   <string name="partition_info_system">/system</string>
-   <string name="partition_info_data">/data</string>
-   <string name="partition_info_cache">/cache</string>
-   <string name="partition_info_sdcard">/sdcard</string>
-   <string name="partition_info_sdext">EXT partition</string>
 
     <!--- Sms security limit -->
     <string name="app_security_title">App security</string>
