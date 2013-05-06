@@ -260,7 +260,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     	startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
     } else if (preference.getKey().equals(TEAM_BRIDGE_SUPPORT)) {
     	Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-    			Uri.parse(getActivity().getString(R.string.support_teambridge)));
+    			Uri.parse(getActivity().getString(R.string.paypal_link)));
     	startActivity(browserIntent);
     }
         return super.onPreferenceTreeClick(preferenceScreen, preference);

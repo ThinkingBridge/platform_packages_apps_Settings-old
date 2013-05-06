@@ -58,7 +58,7 @@
         <Preference
             android:key="support"
             android:title="@string/support_teambridge"
-            android:summary="@string/support_summary" />
+            android:summary="@string/support_teambridge_summary" />
 
         <!-- Legal Information -->
         <PreferenceScreen
