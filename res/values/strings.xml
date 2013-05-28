@@ -4563,12 +4563,12 @@
     
     <!-- Share ThinkingBridge ROM -->
    <string name="share_teambridge">Share ThinkingBridge ROM</string>
-   <string name="share_teambridge_summary">Let others know about TeamBridge</string>
-   <string name="share_message">Use ThinkingBridge ROM \n\nWebsite : http://www.tbridge.kr \n\nIRC : #TeamBridge \n\nTwitter : @TbridgeROM \n\nDownload : http://goo.gl/Qc5zB</string>
+   <string name="share_teambridge_summary">Let others know about ThinkingBridge</string>
+   <string name="share_message">Use ThinkingBridge ROM \n\nWebsite : http://www.tbridge.kr \n\nIRC : freenode #ThinkingBridge \n\nTwitter : @TbridgeROM \n\nDownload : http://goo.gl/Qc5zB</string>
    <string name="share_chooser_title">Share the ROM</string>
    
    <!-- Support TeamBridge -->
-   <string name="support_teambridge">Support TeamBridge</string>
+   <string name="support_teambridge">Support ThinkingBridge</string>
    <string name="support_teambridge_summary">Show your support for the Team\'s work</string>
    <string name="paypal_link" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=L9FW2AR2U3LCL&amp;lc=KR&amp;item_name=Support%20TeamBridge&amp;item_number=htchoi1995&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted</string>
 
